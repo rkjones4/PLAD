@@ -65,11 +65,15 @@ To start a pretraining run for the CSG 3D domain:
 
 ```python3 main.py -dn csg3d -mm pretrain```
 
+## Trained Models
+
+Trained models for both synthetic pretraining and fine-tuning variants can be downloaded from this [link](https://drive.google.com/file/d/1tpcRrSm23fmTEdyEBuZtM1yDKj74uBSb/view?usp=sharing). Please unzip from the model_output directory. 
+
 ## Data
 
-To download the 3D CAD data, please follow the instructions in the BAENet github repo, and use this download [link](https://drive.google.com/file/d/1NvbGIC-XqZGs9pz6wgFwwEPALR-iR8E0/view) . For each of the following categories (chair, table, couch, bench) , please move the {category}/{cateogry_id}\_vox.hdf5 file to data/shape\_net/{category}\_vox.hdf5. Pretrained models for 3D CSG and ShapeAssembly can be download from this [link](https://drive.google.com/file/d/13WoL95yRZOcYmCEBz6rR25kV_zbIeewM/view?usp=sharing), unzip them from the model_output directory.
+To download the 3D CAD data, please follow the instructions in the BAENet github repo, and use this download [link](https://drive.google.com/file/d/1NvbGIC-XqZGs9pz6wgFwwEPALR-iR8E0/view) . For each of the following categories (chair, table, couch, bench) , please move the {category}/{cateogry_id}\_vox.hdf5 file to data/shape\_net/{category}\_vox.hdf5.
 
-For 2D CSG data, download the cad.h5 file from this [link](https://www.dropbox.com/s/d6vm7diqfp65kyi/cad.h5?dl=0). Then place this file in data/csgnet_cad/cad.h5 . For 2D CSG, this repo only supports fine-tuning, so first download the pretrained checkpoint from [here](https://www.dropbox.com/s/0f778edn3sjfabp/models.tar.gz?dl=0), and place this file in model_output/CSG2D_SP/models/infer_net.pt . 
+For 2D CSG data, download the cad.h5 file from this [link](https://www.dropbox.com/s/d6vm7diqfp65kyi/cad.h5?dl=0). Then place this file in data/csgnet_cad/cad.h5 . For 2D CSG, this repo only supports fine-tuning.
 
 ## Files
 
